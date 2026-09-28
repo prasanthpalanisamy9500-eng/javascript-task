@@ -1,0 +1,309 @@
+// 1
+let name = "Prasanth";
+console.log(typeof name);
+
+// 2
+let age = 22;
+console.log(age);
+console.log(typeof age);
+
+// 3
+let isStudent = true;
+console.log(isStudent);
+console.log(typeof isStudent);
+
+// 4
+let value;
+console.log(value);
+console.log(typeof value);
+
+// 5
+let data = null;
+console.log(data);
+console.log(typeof data);
+
+// 6
+let str = "Hello";
+let num = 100;
+let bool = true;
+let undef;
+let nul = null;
+
+console.log(str);
+console.log(num);
+console.log(bool);
+console.log(undef);
+console.log(nul);
+
+// 7
+let qualification = "B.Com";
+console.log(typeof qualification);
+
+// 8
+let salary = 25000;
+console.log(typeof salary === "number");
+
+// 9
+let a = "100";
+let b = 100;
+console.log(typeof a);
+console.log(typeof b);
+
+// 10
+let myName = "Prasanth";
+let myAge = 22;
+let myQualification = "B.Com";
+let workingStatus = false;
+
+console.log(myName, typeof myName);
+console.log(myAge, typeof myAge);
+console.log(myQualification, typeof myQualification);
+console.log(workingStatus, typeof workingStatus);
+
+
+// 11
+let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
+console.log(fruits);
+
+// 12
+let numbers = [10, 20, 30, 40, 50];
+console.log(numbers[0]);
+
+// 13
+let colors = ["Red", "Blue", "Green", "Yellow", "Black", "White"];
+console.log(colors[2]);
+
+// 14
+let mobiles = ["Samsung", "Apple", "OnePlus", "Realme", "Nothing"];
+console.log(mobiles[mobiles.length - 1]);
+
+// 15
+let nums = [10, 20, 30, 40, 50, 60, 70];
+console.log(nums[nums.length - 2]);
+
+// 16
+let foods = ["Biriyani", "Pizza", "Dosa", "Burger", "Parotta"];
+console.log(foods[0]);
+console.log(foods[2]);
+console.log(foods[foods.length - 1]);
+
+// 17
+let cricketers = ["Dhoni", "Kohli", "Rohit", "Sachin", "Bumrah"];
+console.log(cricketers[3]);
+
+// 18
+let toys = ["Car", "Ball", "Robot", "Doll"];
+console.log(toys[toys.length - 1]);
+
+// 19
+let values = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(values[0]);
+console.log(values[values.length - 1]);
+console.log(values[values.length - 2]);
+
+// 20
+let items = ["Apple", "Car", "Dhoni"];
+console.log(items);
+console.log(items[0]);
+console.log(items[1]);
+console.log(items[2]);
+
+
+// 21
+let person = {
+    name: "Prasanth",
+    age: 22,
+    city: "Salem"
+};
+console.log(person);
+
+// 22
+let employee = {
+    name: "Prasanth",
+    qualification: "B.Com",
+    company: "Stackly"
+};
+console.log(employee.company);
+
+// 23
+let fruitObject = {
+    fruits: ["Apple", "Banana", "Mango"]
+};
+console.log(fruitObject.fruits[1]);
+
+// 24
+let toyObject = {
+    toys: ["Car", "Ball", "Robot", "Doll"]
+};
+console.log(toyObject.toys[toyObject.toys.length - 1]);
+
+// 25
+let cricket = {
+    cricketer: "Dhoni",
+    team: "India"
+};
+console.log(cricket.cricketer);
+
+// 26
+let object = {
+    fruitName: "Apple",
+    toyName: "Car",
+    cricketer: "Dhoni"
+};
+console.log(object.fruitName);
+console.log(object.toyName);
+console.log(object.cricketer);
+
+// 27
+let details = {
+    students: ["Prasanth", "Arun", "Kumar"],
+    courses: ["JavaScript", "HTML", "CSS"]
+};
+console.log(details.students[0]);
+console.log(details.courses[1]);
+
+// 28
+let mobileObject = {
+    mobile: ["Samsung", "Apple", "OnePlus", "Realme"]
+};
+console.log(mobileObject.mobile[2]);
+
+// 29
+let employeeDetails = {
+    employeeName: "Prasanth",
+    skills: ["HTML", "JavaScript", "CSS"],
+    experience: 1
+};
+console.log(employeeDetails.skills[1]);
+
+// 30
+let personal = {
+    name: "Prasanth",
+    age: 22,
+    qualification: "B.Com",
+    city: "Salem"
+};
+console.log(personal.name);
+console.log(personal.age);
+console.log(personal.qualification);
+
+
+// 31
+let x = 20;
+let y = 10;
+
+console.log(x + y);
+console.log(x - y);
+console.log(x * y);
+console.log(x / y);
+
+// 32
+let n1 = 25;
+let n2 = 4;
+console.log(n1 % n2);
+
+// 33
+console.log(2 ** 5);
+
+// 34
+let p = 20;
+let q = 5;
+
+console.log(p + q);
+console.log(p - q);
+console.log(p * q);
+console.log(p / q);
+console.log(p % q);
+console.log(p ** q);
+
+// 35
+let value1 = 10;
+value1 = value1 + 5;
+console.log(value1);
+
+// 36
+let inc1 = 10;
+console.log(++inc1);
+
+// 37
+let inc2 = 10;
+console.log(inc2++);
+
+// 38
+let dec1 = 20;
+console.log(--dec1);
+
+// 39
+let dec2 = 20;
+console.log(dec2--);
+
+// 40
+let a1 = 10;
+let a2 = 10;
+
+console.log(++a1);
+console.log(a2++);
+
+
+// 41
+let aa = 20;
+let bb = 10;
+aa += bb;
+console.log(aa);
+
+// 42
+let cc = 50;
+let dd = 20;
+cc -= dd;
+console.log(cc);
+
+// 43
+let ee = 10;
+let ff = 5;
+ee *= ff;
+console.log(ee);
+
+// 44
+let gg = 100;
+let hh = 10;
+gg /= hh;
+console.log(gg);
+
+// 45
+let ii = 25;
+let jj = 4;
+ii %= jj;
+console.log(ii);
+
+
+// 46
+let first = 10;
+let second = 20;
+
+console.log(first < second);
+console.log(first > second);
+console.log(first <= second);
+console.log(first >= second);
+
+// 47
+let number = 10;
+let string = "10";
+
+console.log(number == string);
+console.log(number === string);
+
+// 48
+let m = 10;
+let k = 20;
+
+console.log(m < k && k > 5);
+console.log(m > k || k > 5);
+console.log(!(m > k));
+
+// 49
+let age1 = 20;
+console.log(age1 >= 18 ? "Eligible" : "Not Eligible");
+
+// 50
+let marks = 45;
+console.log(marks >= 35 ? "Pass" : "Fail");
