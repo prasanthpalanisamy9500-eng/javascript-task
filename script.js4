@@ -1,0 +1,357 @@
+// 1. Logical AND
+console.log(10 > 5 && 20 > 15);
+
+// 2. Logical AND
+console.log(10 > 15 && 20 > 10);
+
+// 3. Logical OR
+console.log(10 > 20 || 15 > 10);
+
+// 4. Logical OR
+console.log(5 > 10 || 20 < 15);
+
+// 5. NOT
+console.log(!(10 > 5));
+
+// 6. NOT
+console.log(!(10 < 5));
+
+// 7. AND and OR
+console.log((10 > 5 && 20 > 15) || 5 > 10);
+
+// 8. AND, OR and NOT
+console.log((10 > 5 && 20 > 15) || !(5 > 10));
+
+
+// 9. Ternary - Age
+let age = 20;
+console.log(age >= 18 ? "Eligible" : "Not Eligible");
+
+// 10. Ternary - Marks
+let marks = 50;
+console.log(marks >= 35 ? "Pass" : "Fail");
+
+// 11. Greater than 10
+let number = 15;
+console.log(number > 10 ? "Greater" : "Not Greater");
+
+// 12. Even or Odd
+let number2 = 8;
+console.log(number2 % 2 === 0 ? "Even" : "Odd");
+
+// 13. Salary
+let salary = 40000;
+console.log(salary > 30000 ? "Good Salary" : "Low Salary");
+
+
+// 14. First name, last name and city
+let firstName = "Prasanth";
+let lastName = "Palanisamy";
+let city = "Salem";
+
+console.log(firstName + " " + lastName + " " + city);
+
+// 15. Name and age
+let name = "Prasanth";
+let age2 = 22;
+
+console.log("My name is " + name + " and my age is " + age2);
+
+// 16. Product, price and brand
+let product = "Mobile";
+let price = 20000;
+let brand = "Samsung";
+
+console.log(product + " price is " + price + " and brand is " + brand);
+
+// 17. Name, qualification and company
+let myName = "Prasanth";
+let qualification = "B.Com";
+let company = "Stackly";
+
+console.log(`My name is ${myName}, I completed ${qualification}, and I work at ${company}.`);
+
+// 18. Name, age and city using template string
+let personName = "Prasanth";
+let personAge = 22;
+let personCity = "Salem";
+
+console.log(`My name is ${personName}, I am ${personAge} years old and I live in ${personCity}.`);
+
+
+// 19. String + number
+let a = "10";
+let b = 5;
+
+let result19 = a + b;
+console.log(result19);
+console.log(typeof result19);
+
+// 20. Number + number
+let c = 10;
+let d = 20;
+
+let result20 = c + d;
+console.log(result20);
+console.log(typeof result20);
+
+// 21. Number + true
+let result21 = 10 + true;
+console.log(result21);
+console.log(typeof result21);
+
+// 22. Number + null
+let result22 = 10 + null;
+console.log(result22);
+console.log(typeof result22);
+
+// 23. String + true
+let result23 = "Hello" + true;
+console.log(result23);
+console.log(typeof result23);
+
+// 24. String + array
+let result24 = "Hello" + [1, 2, 3];
+console.log(result24);
+console.log(typeof result24);
+
+// 25. Number + object
+let result25 = 10 + { name: "Prasanth" };
+console.log(result25);
+console.log(typeof result25);
+
+// 26. Three different expressions
+let expression1 = "10" + 5;
+let expression2 = 10 + 5;
+let expression3 = 10 + true;
+
+console.log(expression1, typeof expression1);
+console.log(expression2, typeof expression2);
+console.log(expression3, typeof expression3);
+
+
+// 27. String to number
+let value27 = "100";
+console.log(Number(value27));
+
+// 28. String to number and typeof
+let value28 = "25";
+let number28 = Number(value28);
+
+console.log(number28);
+console.log(typeof number28);
+
+// 29. true to number
+console.log(Number(true));
+
+// 30. false to number
+console.log(Number(false));
+
+// 31. Empty string to number
+console.log(Number(""));
+
+// 32. null to number
+console.log(Number(null));
+
+// 33. undefined to number
+console.log(Number(undefined));
+
+// 34. Hello to boolean
+console.log(Boolean("Hello"));
+
+// 35. Empty string to boolean
+console.log(Boolean(""));
+
+// 36. 0, 1 and -1 to boolean
+console.log(Boolean(0));
+console.log(Boolean(1));
+console.log(Boolean(-1));
+
+// 37. Array to boolean
+let array37 = [1, 2, 3];
+console.log(Boolean(array37));
+
+// 38. Object to boolean
+let object38 = { name: "Prasanth" };
+console.log(Boolean(object38));
+
+
+// 39. If - Age
+let age39 = 20;
+
+if (age39 >= 18) {
+    console.log("Eligible");
+}
+
+// 40. If...else - Voting
+let age40 = 20;
+
+if (age40 >= 18) {
+    console.log("Eligible to vote");
+} else {
+    console.log("Not eligible to vote");
+}
+
+// 41. If...else - Marks
+let marks41 = 60;
+
+if (marks41 >= 35) {
+    console.log("Pass");
+} else {
+    console.log("Fail");
+}
+
+// 42. Time
+let time = 15;
+
+if (time >= 1 && time <= 6) {
+    console.log("Early Morning");
+} else if (time >= 7 && time <= 12) {
+    console.log("Morning");
+} else if (time >= 13 && time <= 17) {
+    console.log("Afternoon");
+} else if (time >= 18 && time <= 19) {
+    console.log("Evening");
+} else if (time >= 20 && time <= 24) {
+    console.log("Night");
+} else {
+    console.log("Invalid Time");
+}
+
+// 43. Temperature
+let temperature = 30;
+
+if (temperature > 35) {
+    console.log("Hot");
+} else if (temperature >= 20 && temperature <= 35) {
+    console.log("Normal");
+} else {
+    console.log("Cold");
+}
+
+
+// 44. Nested if
+let age44 = 20;
+let height44 = 175;
+let weight44 = 65;
+
+if (age44 >= 18) {
+    if (height44 >= 170) {
+        if (weight44 >= 60) {
+            console.log("Eligible");
+        }
+    }
+}
+
+
+// 45. Traffic Light
+let trafficLight = "red";
+
+switch (trafficLight) {
+    case "red":
+        console.log("Stop");
+        break;
+
+    case "yellow":
+        console.log("Wait");
+        break;
+
+    case "green":
+        console.log("Go");
+        break;
+
+    default:
+        console.log("Invalid");
+}
+
+
+// 46. Day
+let day = "Monday";
+
+switch (day) {
+    case "Monday":
+        console.log("Monday");
+        break;
+
+    case "Tuesday":
+        console.log("Tuesday");
+        break;
+
+    case "Wednesday":
+        console.log("Wednesday");
+        break;
+
+    case "Thursday":
+        console.log("Thursday");
+        break;
+
+    case "Friday":
+        console.log("Friday");
+        break;
+
+    case "Saturday":
+        console.log("Saturday");
+        break;
+
+    case "Sunday":
+        console.log("Sunday");
+        break;
+
+    default:
+        console.log("Invalid Day");
+}
+
+
+// 47. Choice
+let choice = 2;
+
+switch (choice) {
+    case 1:
+        console.log("Start");
+        break;
+
+    case 2:
+        console.log("Settings");
+        break;
+
+    case 3:
+        console.log("Exit");
+        break;
+
+    default:
+        console.log("Invalid Choice");
+}
+
+
+// 48. For loop 1 to 10
+for (let i = 1; i <= 10; i++) {
+    console.log(i);
+}
+
+
+// 49. While loop 10 to 1
+let i = 10;
+
+while (i >= 1) {
+    console.log(i);
+    i--;
+}
+
+
+// 50. Array using for...of
+let fruits = ["Apple", "Banana", "Mango", "Orange"];
+
+for (let fruit of fruits) {
+    console.log(fruit);
+}
+
+// Object using for...in
+let person = {
+    name: "Prasanth",
+    role: "Developer",
+    experience: "Fresher"
+};
+
+for (let key in person) {
+    console.log(key + " : " + person[key]);
+}
