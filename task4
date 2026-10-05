@@ -1,0 +1,461 @@
+// 1
+function hello() {
+    console.log("Hello Everyone");
+}
+hello();
+
+
+// 2
+function welcome() {
+    console.log("Welcome to JavaScript");
+}
+welcome();
+
+
+// 3
+function navi() {
+    console.log("Prasanth");
+}
+navi();
+
+
+// 4
+function message() {
+    console.log("Good Morning");
+    console.log("Welcome");
+    console.log("Have a nice day");
+}
+message();
+
+
+// 5
+function numbers() {
+    for (let i = 1; i <= 5; i++) {
+        console.log(i);
+    }
+}
+numbers();
+
+
+// 6
+function check() {
+    let age = 20;
+
+    if (age >= 18) {
+        console.log("You are eligible");
+    }
+}
+check();
+
+
+// 7
+function details() {
+    console.log("Name: Prasanth");
+    console.log("Qualification: B.Com");
+    console.log("Role: .NET Developer");
+}
+details();
+
+
+// 8
+function company() {
+    console.log("Stackly");
+}
+company();
+
+
+// 9
+function welcomeUser() {
+    console.log("Welcome User");
+}
+welcomeUser();
+welcomeUser();
+welcomeUser();
+
+
+// 10
+function first() {
+    console.log("First Function");
+}
+
+function second() {
+    console.log("Second Function");
+}
+
+first();
+second();
+
+
+// 11
+function showName(name) {
+    console.log(name);
+}
+showName("Prasanth");
+
+
+// 12
+function showDetails(name, age) {
+    console.log(name);
+    console.log(age);
+}
+showDetails("Prasanth", 22);
+
+
+// 13
+function add(a, b) {
+    console.log(a + b);
+}
+add(10, 20);
+
+
+// 14
+function sub(a, b) {
+    console.log(a - b);
+}
+sub(20, 10);
+
+
+// 15
+function multiply(a, b) {
+    console.log(a * b);
+}
+multiply(10, 5);
+
+
+// 16
+function divide(a, b) {
+    console.log(a / b);
+}
+divide(20, 5);
+
+
+// 17
+function student(name, age) {
+    console.log("Name: " + name);
+    console.log("Age: " + age);
+}
+student("Prasanth", 22);
+
+
+// 18
+function employee(name, role, salary) {
+    console.log(name);
+    console.log(role);
+    console.log(salary);
+}
+employee("Prasanth", "Developer", 40000);
+
+
+// 19
+function fourValues(a, b, c, d) {
+    console.log(a);
+    console.log(b);
+    console.log(c);
+    console.log(d);
+}
+fourValues(10, 20, 30, 40);
+
+
+// 20
+function sixValues(a, b, c, d, e, f) {
+    console.log(a);
+    console.log(b);
+    console.log(c);
+    console.log(d);
+    console.log(e);
+    console.log(f);
+}
+sixValues(10, 20, 30, 40, 50, 60);
+
+
+// 21
+function student2(name, department, cgpa) {
+    console.log(name);
+    console.log(department);
+    console.log(cgpa);
+}
+student2("Prasanth", "B.Com", 8.2);
+
+
+// 22
+function user(name, age = 18) {
+    console.log(name);
+    console.log(age);
+}
+user("Prasanth");
+
+
+// 23
+function employee2(name, role = "Developer") {
+    console.log(name);
+    console.log(role);
+}
+employee2("Prasanth");
+
+
+// 24
+function form(name, department, cgpa, disability = "no") {
+    console.log(name);
+    console.log(department);
+    console.log(cgpa);
+    console.log(disability);
+}
+
+form("Prasanth", "B.Com", 8.2);
+form("Saran", "BCA", 7.8, "yes");
+
+
+// 25
+function details2(name, age, city = "Salem") {
+    console.log(name);
+    console.log(age);
+    console.log(city);
+}
+details2("Prasanth", 22);
+
+
+// 26
+function addReturn(a, b) {
+    return a + b;
+}
+console.log(addReturn(10, 20));
+
+
+// 27
+function subReturn(a, b) {
+    return a - b;
+}
+console.log(subReturn(20, 10));
+
+
+// 28
+function multiplyReturn(a, b) {
+    return a * b;
+}
+console.log(multiplyReturn(10, 5));
+
+
+// 29
+function divideReturn(a, b) {
+    return a / b;
+}
+console.log(divideReturn(20, 5));
+
+
+// 30
+function salary() {
+    return 40000;
+}
+
+let sal = salary();
+console.log(sal);
+
+
+// 31
+function employeeSalary(salary) {
+    return salary;
+}
+console.log(employeeSalary(40000));
+
+
+// 32
+function personName() {
+    return "Prasanth";
+}
+
+let name = personName();
+console.log(name);
+
+
+// 33
+function result(marks) {
+    if (marks >= 35) {
+        return "Pass";
+    } else {
+        return "Fail";
+    }
+}
+
+console.log(result(60));
+
+
+// 34
+function discount(price, discount) {
+    return price * discount / 100;
+}
+
+console.log(discount(1000, 10));
+
+
+// 35
+function calculation(a, b) {
+    return a + b;
+}
+
+function display(value) {
+    console.log(value);
+}
+
+let answer = calculation(10, 20);
+display(answer);
+
+
+// 36
+let city = "Salem";
+
+function showCity() {
+    console.log(city);
+}
+
+showCity();
+
+
+// 37
+let studentDetails = {
+    name: "Prasanth",
+    designation: "Developer"
+};
+
+function showStudent() {
+    console.log(studentDetails.name);
+    console.log(studentDetails.designation);
+}
+
+showStudent();
+
+
+// 38
+let salaryAmount = 40000;
+
+function addBonus() {
+    let total = salaryAmount + 5000;
+    console.log(total);
+}
+
+addBonus();
+
+
+// 39
+let employeeDetails = {
+    name: "Prasanth",
+    role: "Developer",
+    salary: 40000
+};
+
+function showEmployee() {
+    console.log(employeeDetails.name);
+    console.log(employeeDetails.role);
+    console.log(employeeDetails.salary);
+}
+
+showEmployee();
+
+
+// 40
+let number = 10;
+
+function one() {
+    console.log(number);
+}
+
+function two() {
+    console.log(number);
+}
+
+one();
+two();
+
+
+// 41
+function namedFunction(value) {
+    console.log(value);
+}
+
+namedFunction("Hello");
+
+
+// 42
+let anonymous = function() {
+    console.log("Anonymous Function");
+};
+
+anonymous();
+
+
+// 43
+let arrow = (name) => {
+    console.log(name);
+};
+
+arrow("Prasanth");
+
+
+// 44
+let arrowAdd = (a, b) => {
+    return a + b;
+};
+
+console.log(arrowAdd(10, 20));
+
+
+// 45
+function namedAdd(a, b) {
+    return a + b;
+}
+
+let anonymousAdd = function(a, b) {
+    return a + b;
+};
+
+let arrowAdd2 = (a, b) => {
+    return a + b;
+};
+
+console.log(namedAdd(10, 20));
+console.log(anonymousAdd(10, 20));
+console.log(arrowAdd2(10, 20));
+
+
+// 46
+(function() {
+    console.log("Hello JavaScript");
+})();
+
+
+// 47
+(function(name) {
+    console.log("Hello " + name);
+})("Prasanth");
+
+
+// 48
+(function(product, discount) {
+    console.log(product + " has a " + discount + "% discount");
+})("Mobile", 20);
+
+
+// 49
+function addNumbers(a, b, callback) {
+    let result = a + b;
+    callback(result);
+}
+
+function displayResult(result) {
+    console.log(result);
+}
+
+addNumbers(10, 20, displayResult);
+
+
+// 50
+function addNumbers2(a, b, callback) {
+    let result = a + b;
+    console.log("Addition: " + result);
+    callback(a, b);
+}
+
+function subNumbers(a, b) {
+    console.log("Subtraction: " + (a - b));
+}
+
+addNumbers2(20, 10, subNumbers);
